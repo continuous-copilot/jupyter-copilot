@@ -13,10 +13,12 @@ Try exploring data from [MSDocs](https://raw.githubusercontent.com/MicrosoftDocs
 Steps:
 1. Create a new ipython notebook `titanic.ipynb`
 1. Add a markdown cell and type the following (let Copilot complete the lines)
+
     ```md
     # Exploring Titanic Dataset
-    The titanic is_
+    The titanic is
     ```
+
 1. Type `url = 'https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv'` and then prompt Copilot to import the data as a dataframe
 1. Print the head of the dataframe
 1. `# calculate the number of survivors and print it`
@@ -25,3 +27,5 @@ Steps:
 1. Ask for a `catplot` showing correlation between class and survivability
 1. Ask for a model to predict survivability by age
 1. Ask Copilot to help improve the model
+1. Ask Copilot to help you understand the model
+1. Ask Copilot to help you understand the data
