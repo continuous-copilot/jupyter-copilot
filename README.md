@@ -6,6 +6,8 @@ You've got a blank canvas to work on from a git perspective as well. There's a s
 
 Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
 
+<img src="https://github.com/user-attachments/assets/23d3ea40-e450-4d42-9cc1-5e0deca7dff5" alt="GitHub Copilot and Jupyter Notebooks" width="800" height="800">
+
 # Titanic Exploration
 
 Try exploring data from [MSDocs](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv)
