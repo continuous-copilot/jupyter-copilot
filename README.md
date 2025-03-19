@@ -10,9 +10,8 @@ Everything you do here is contained within this one codespace. There is no repos
 
 # Titanic Exploration
 
-Try exploring data from [MSDocs](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv)
+The following steps will explore the data in Microsoft's _mslearn-introduction-to-machine-learning_ [Titanic dataset](https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv) with GitHub Copilot by your side!
 
-Steps:
 1. Create a new ipython notebook `titanic.ipynb`
 1. Add a markdown cell and type the following (let Copilot complete the lines)
 
@@ -21,13 +20,29 @@ Steps:
     The titanic is
     ```
 
-1. Type `url = 'https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv'` and then prompt Copilot to import the data as a dataframe
-1. Print the head of the dataframe
-1. `# calculate the number of survivors and print it`
-1. `# calculate the number of nonsurvivors and print it`
-1. Ask Copilot (using `q: and a:`) or Copilot Chat what the `sibsp and parch` columns mean
-1. Ask for a `catplot` showing correlation between class and survivability
-1. Ask for a model to predict survivability by age
-1. Ask Copilot to help improve the model
-1. Ask Copilot to help you understand the model
-1. Ask Copilot to help you understand the data
+1. Add a code cell and copy+paste the following into it, letting Copilot complete the rest:
+
+    ```
+    # Import the dataset at this URL as a Pandas dataframe
+    url = 'https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/titanic.csv'
+    ```
+
+1. Print the head of the dataframe.
+1. Add a code cell and copy+paste the following into it, letting Copilot complete the rest:
+
+    ```
+    # calculate the number of survivors and print it
+    ```
+
+1. Add a code cell and copy+paste the following into it, letting Copilot complete the rest:
+
+    ```
+    # calculate the number of nonsurvivors and print it
+    ```
+
+1. Ask Copilot&mdash;either inline using `q:` and `a:` or via Copilot Chat&mdash;what the `sibsp` and `parch` columns mean.
+1. Ask for a `catplot` showing correlation between passenger class and survivability.
+1. Ask for a model to predict survivability by age.
+1. Ask Copilot to help improve the survivability model.
+1. Ask Copilot to help you understand the survivability model.
+1. Ask Copilot to help you understand the data in the dataset.
